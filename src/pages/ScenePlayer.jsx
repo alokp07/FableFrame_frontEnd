@@ -16,8 +16,8 @@ function ScenePlayer() {
         {/* Description Section */}
         <div className="lg:w-3/5 w-full flex flex-col items-center py-15">
           <div className="scene-text h-[100%] overflow-auto px-5">
-            <h1 className="mb-5 ml-3 text-4xl">Scene 1</h1>
-            <p className="text-lg text-center lg:text-left px-4">
+            <h1 className="mb-5 ml-3 text-4xl text-white">Scene 1</h1>
+            <p className="text-lg text-center lg:text-left px-4 text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               nobis nemo voluptate vel exercitationem sequi quaerat, illum,
               itaque esse reprehenderit deleniti corrupti, excepturi aliquid
@@ -71,17 +71,17 @@ function ScenePlayer() {
 
       {/* Audio player*/}
       <div className="w-full h-[10%] flex items-center justify-center">
-        <button className="mr-5 block md:hidden">
+        <button className="mr-5 block md:hidden text-white">
           <i class="fa-solid fa-backward fa-2x"></i>
         </button>
-        <button id="play-btn" className="mr-5">
+        <button id="play-btn" className="mr-5 text-white">
           <i id="playIcon" className="fa-solid fa-play fa-2x"></i>
         </button>
         <div id="progressContainer">
           <div id="progressBar"></div>
         </div>
 
-        <button className="ml-5 block md:hidden">
+        <button className="ml-5 block md:hidden text-white">
           <i className="fa-solid fa-forward fa-2x"></i>
         </button>
       </div>
